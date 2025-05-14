@@ -21,7 +21,7 @@ app.layout = html.Div([
     dcc.Store(id='gbk-raw'),
     dcc.Store(id='matched-genes'),
     dcc.Store(id='pdf-click-store', data=0),
-    dcc.Tabs(id="tabs", value='analysis-tab', children=[
+    dcc.Tabs(id="tabs", value='home-tab', children=[
         dcc.Tab(label='🏠 Home', value='home-tab'),
         dcc.Tab(label='🧪 Analysis', value='analysis-tab'),
         dcc.Tab(label='📘 Documentation', value='documentation-tab')
@@ -38,7 +38,7 @@ def render_tabs(tab):
             html.H2("LaPointes Research Group"),
 html.P("Fermentation is a cornerstone of microbial metabolism, shaping ecosystems, industrial biotechnology, and food systems. Understanding the genomic basis of microbial fermentation is critical for predicting phenotypes, optimizing fermentation processes, and engineering strains with tailored metabolic outputs."),
 
-html.P("FermentoMap was developed to address this gap. It is a Python-based, web-accessible application designed to extract, identify, and classify fermentation-related genes from annotated bacterial GenBank files. By integrating a curated database of fermentation-associated protein markers, FermentoMap performs rapid gene matching and categorizes genomes based on fermentation type (e.g., lactic acid, ethanol, acetate) and oxygen requirements (e.g., aerobic, anaerobic, facultative)."),
+html.P("FermentoMap was developed to address this gap. It is a  web-accessible application designed to extract, identify, and classify fermentation-related genes from annotated bacterial GenBank files. By integrating a curated database of fermentation-associated protein markers, FermentoMap performs rapid gene matching and categorizes genomes based on fermentation type (e.g., lactic acid, ethanol, acetate) and oxygen requirements (e.g., aerobic, anaerobic, facultative)."),
 
 html.P("The significance of this tool lies in its versatility across research and industrial applications: In microbial ecology, it enables high-throughput screening of genomes for trait-based classification in environmental microbiomes. In food and dairy biotechnology, it supports selection of fermentative strains for probiotics, starter cultures, and functional foods. In synthetic biology, it aids in the rational design of microbial consortia with complementary fermentation pathways."),
 
