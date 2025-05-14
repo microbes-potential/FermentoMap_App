@@ -10,7 +10,7 @@ import json
 from fpdf import FPDF
 import os
 
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.CYBORG], suppress_callback_exceptions=True)
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.DARKLY], suppress_callback_exceptions=True)
 server = app.server
 app.title = "FermentoMap"
 
