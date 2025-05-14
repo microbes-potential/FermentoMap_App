@@ -12,7 +12,7 @@ import os
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.CYBORG], suppress_callback_exceptions=True)
 server = app.server
-app.title = "FermentoMap - GenBank Version"
+app.title = "FermentoMap"
 
 with open("fermentomap_proteins.json", "r") as f:
     fermento_db = json.load(f)
@@ -213,4 +213,4 @@ def generate_pdf(n_clicks, prev_clicks, data):
     return dcc.send_file(output_path), n_clicks
 
 if __name__ == "__main__":
-    app.run_server(host="0.0.0.0", port=8080, debug=False)
+    app.run(host="0.0.0.0", port=8080, debug=False)
