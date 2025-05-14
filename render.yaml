@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: fermentomap-app
+    env: python
+    buildCommand: ""
+    startCommand: python app_with_full_intro.py
+    plan: free

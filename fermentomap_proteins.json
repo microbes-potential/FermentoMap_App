@@ -1,0 +1,137 @@
+{
+    "ldh": {
+        "gene": "ldh",
+        "name": "Lactate dehydrogenase",
+        "fermentation_type": "Lactic acid",
+        "oxygen_requirement": "Facultative",
+        "enzyme_class": "1.1.1.27",
+        "function": "Catalyzes the interconversion of pyruvate and lactate.",
+        "protein_sequence": "MPLNVSFTGAAIGTGAIASLNAKAAALEKLRDDYRL"
+    },
+    "adhE": {
+        "gene": "adhE",
+        "name": "Alcohol dehydrogenase",
+        "fermentation_type": "Ethanol",
+        "oxygen_requirement": "Anaerobic",
+        "enzyme_class": "1.1.1.1",
+        "function": "Converts acetaldehyde to ethanol in ethanol fermentation.",
+        "protein_sequence": "MAKRTYFGVLLGAGVIGRLAKEIGF"
+    },
+    "pta": {
+        "gene": "pta",
+        "name": "Phosphotransacetylase",
+        "fermentation_type": "Acetate",
+        "oxygen_requirement": "Facultative",
+        "enzyme_class": "2.3.1.8",
+        "function": "Converts acetyl-CoA to acetyl phosphate.",
+        "protein_sequence": "MNNIAEVLGKTVVLIVGSGVVAAAL"
+    },
+    "ackA": {
+        "gene": "ackA",
+        "name": "Acetate kinase",
+        "fermentation_type": "Acetate",
+        "oxygen_requirement": "Facultative",
+        "enzyme_class": "2.7.2.1",
+        "function": "Produces acetate from acetyl phosphate.",
+        "protein_sequence": "MTYTVIAGAGGTSAAGLKALR"
+    },
+    "pflB": {
+        "gene": "pflB",
+        "name": "Pyruvate formate-lyase",
+        "fermentation_type": "Mixed acid",
+        "oxygen_requirement": "Anaerobic",
+        "enzyme_class": "2.3.1.54",
+        "function": "Converts pyruvate to formate and acetyl-CoA.",
+        "protein_sequence": "MAFSYVRKIDVAGVLQGAAV"
+    },
+    "fruA": {
+        "gene": "fruA",
+        "name": "Fructose-specific PTS enzyme IIA",
+        "fermentation_type": "Fructose uptake",
+        "oxygen_requirement": "Facultative",
+        "enzyme_class": "2.7.1.199",
+        "function": "Transports fructose across the membrane.",
+        "protein_sequence": "MKGKILFAGKGVLTS"
+    },
+    "fruK": {
+        "gene": "fruK",
+        "name": "1-phosphofructokinase",
+        "fermentation_type": "Fructose metabolism",
+        "oxygen_requirement": "Facultative",
+        "enzyme_class": "2.7.1.56",
+        "function": "Phosphorylates fructose-1-phosphate to fructose-1,6-bisphosphate.",
+        "protein_sequence": "MPLVTPAGWLLAKGKL"
+    },
+    "buk": {
+        "gene": "buk",
+        "name": "Butyrate kinase",
+        "fermentation_type": "Butyrate",
+        "oxygen_requirement": "Anaerobic",
+        "enzyme_class": "2.7.2.7",
+        "function": "Catalyzes formation of butyrate from butyryl-CoA.",
+        "protein_sequence": "MSKTVLLVGAGGAASARQK"
+    },
+    "gdh": {
+        "gene": "gdh",
+        "name": "Glutamate dehydrogenase",
+        "fermentation_type": "Amino acid fermentation",
+        "oxygen_requirement": "Facultative",
+        "enzyme_class": "1.4.1.4",
+        "function": "Oxidative deamination of glutamate.",
+        "protein_sequence": "MTRKLVVIGGSGVGQAAK"
+    },
+    "cydA": {
+        "gene": "cydA",
+        "name": "Cytochrome bd-I oxidase subunit I",
+        "fermentation_type": "Not fermentative",
+        "oxygen_requirement": "Aerobic",
+        "enzyme_class": "1.10.3.14",
+        "function": "Terminal oxidase in aerobic respiration; reduces oxygen to water.",
+        "protein_sequence": "MGVKLKQALSAGVVAGAVLAIGAG"
+    },
+    "coxA": {
+        "gene": "coxA",
+        "name": "Cytochrome c oxidase subunit I",
+        "fermentation_type": "Not fermentative",
+        "oxygen_requirement": "Aerobic",
+        "enzyme_class": "1.9.3.1",
+        "function": "Final electron acceptor in aerobic respiration.",
+        "protein_sequence": "MKTLLTLAGALAGALQGATDTVTAA"
+    },
+    "nuoB": {
+        "gene": "nuoB",
+        "name": "NADH-quinone oxidoreductase subunit B",
+        "fermentation_type": "Not fermentative",
+        "oxygen_requirement": "Aerobic",
+        "enzyme_class": "1.6.5.3",
+        "function": "Part of Complex I in aerobic respiration; transfers electrons from NADH to quinone.",
+        "protein_sequence": "MLTVKRGILVVGGVGGMAGVGKTS"
+    },
+    "nuoL": {
+        "gene": "nuoL",
+        "name": "NADH-quinone oxidoreductase subunit L",
+        "fermentation_type": "Not fermentative",
+        "oxygen_requirement": "Aerobic",
+        "enzyme_class": "1.6.5.3",
+        "function": "Membrane-bound subunit involved in proton translocation of Complex I.",
+        "protein_sequence": "MPNVRLFVGLLVGAAASAAANAVGV"
+    },
+    "sodA": {
+        "gene": "sodA",
+        "name": "Superoxide dismutase [Mn/Fe]",
+        "fermentation_type": "Oxidative stress detox",
+        "oxygen_requirement": "Aerobic",
+        "enzyme_class": "1.15.1.1",
+        "function": "Detoxifies superoxide radicals produced during aerobic respiration.",
+        "protein_sequence": "MAYVKLGTPASALKAAVDAAL"
+    },
+    "katG": {
+        "gene": "katG",
+        "name": "Catalase-peroxidase",
+        "fermentation_type": "Oxidative stress detox",
+        "oxygen_requirement": "Aerobic",
+        "enzyme_class": "1.11.1.21",
+        "function": "Decomposes hydrogen peroxide into water and oxygen.",
+        "protein_sequence": "MSAAKKVIAVGVAGGIGQAA"
+    }
+}
