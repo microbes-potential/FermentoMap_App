@@ -32,41 +32,16 @@ Install dependencies with:
 pip install -r requirements.txt
 ```
 
----
-
 ## 🌐 Running Locally
 
 1. Clone this repository and navigate to the project folder.
 2. Ensure you have `fermentomap_proteins.json` and `example.gbk` in the same directory.
 3. Run the app:
 
-```bash
-python app_render_ready.py
-```
-
-4. Open your browser at [http://127.0.0.1:8050](http://127.0.0.1:8050) to use the app.
-
----
-
-## ☁️ Deployment on Render
-
-1. Push the following files to a GitHub repository:
-   - `app_render_ready.py`
-   - `requirements.txt`
-   - `render.yaml`
-   - `fermentomap_proteins.json`
-   - `assets/example.gbk`
-2. Go to [https://dashboard.render.com](https://dashboard.render.com)
-3. Click **New Web Service** and connect your GitHub repo
-4. Render will detect `render.yaml` and set up your app
-5. After build, your app will be live on your Render subdomain
-
----
-
 ## 📄 File Structure
 
 ```
-├── app_render_ready.py              # Main app file
+├── app.py              # Main app file
 ├── requirements.txt                # Python dependencies
 ├── render.yaml                     # Render deployment config
 ├── fermentomap_proteins.json       # Gene/protein reference database
