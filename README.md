@@ -74,23 +74,3 @@ python app_render_ready.py
 │   └── example.gbk                 # Sample GenBank input file
 ```
 
----
-
-## 📚 About
-
-**FermentoMap** was developed by **LaPointes Research Group** to help researchers and microbiologists identify genomic traits linked to fermentation, especially in the context of microbial ecology, dairy applications, and synthetic biology.
-
----
-
-## 🧪 Citation
-
-If you use FermentoMap in your research, please cite:
-
-> Farooq, A., & Rafique, A. (2025). *FermentoMap: A Web Tool for Classification of Fermentation-Related Genes from Bacterial Genomes*. LaPointes Research Group.
-
----
-
-## 📬 Contact
-
-For issues or contributions, please contact the authors or open an issue on GitHub.
-
